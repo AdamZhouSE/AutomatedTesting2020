@@ -8,11 +8,11 @@
 
 ```
 .
-├── ./Data				存放测试数据
-├── ./Demo				项目生成的jar包
-├── ./Project			项目源代码
+├── ./Data	存放测试数据
+├── ./Demo	项目生成的jar包
+├── ./Project	项目源代码
 ├── ./README.md
-└── ./Report			存放代码依赖图
+└── ./Report	存放代码依赖图
 ```
 
 **使用**
@@ -24,7 +24,7 @@ java -jar testSelection.jar -c <project_target> <change_info>
 java -jar testSelection.jar -m <project_target> <change_info>
 ```
 
-`<project_target> `是待测项目`target`文件，比如`./Data/1-ALU/target`
+`<project_target>`是待测项目`target`文件，比如`./Data/1-ALU/target`
 
 `<change_info>`是记录变更信息的的文本文件，比如`./Data/1-ALU/data/change_info.txt`
 
